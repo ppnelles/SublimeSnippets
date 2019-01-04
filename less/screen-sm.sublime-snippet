@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@media(min-width: @screen-sm) {
+	
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>screen-sm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope></scope>
+</snippet>

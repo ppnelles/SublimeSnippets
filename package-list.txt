@@ -1,0 +1,9 @@
+ACF Snippnets
+Bracket Highlighter
+CSS Extended completions
+Emmet
+Emmet CSS Snippnets
+Flexbox Snippnets
+jQuery
+LESS
+SASS

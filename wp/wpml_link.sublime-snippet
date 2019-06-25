@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-@media(min-width: @screen-sm) {
-	
-}
+<a href="<?php echo get_permalink(icl_object_id(${1:id},'${2:post-type}',false));?>">${3:label}</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>screen-sm</tabTrigger>
+	<tabTrigger>wpml_link</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.less</scope>
+	<scope>source.php</scope>
 </snippet>

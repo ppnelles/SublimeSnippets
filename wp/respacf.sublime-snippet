@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+\$image = get_field('image');
+\$size = 'full'; // (thumbnail, medium, large, full or custom size)
+
+if( \$image ) {
+
+	echo wp_get_attachment_image( \$image, \$size );
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gbl_respimg_acf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

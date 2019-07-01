@@ -1,14 +1,17 @@
 <snippet>
 	<content><![CDATA[
-\$the_query = new WP_Query('post_type=${1:foo}&posts_per_page=${2:-1}');
-if ( \$the_query->have_posts() ) :
-while ( \$the_query->have_posts() ) : \$the_query->the_post();
-
-// do stuffs
-
-endwhile;
-endif;
-wp_reset_query();
+\$args = array(
+	'post_type' => 'foo',
+	'posts_per_page' => -1
+);
+\$the_query = new WP_Query(\$args);
+if ( \$the_query->have_posts() ) : ?>
+	<ul>
+		<?php while ( \$the_query->have_posts() ) : \$the_query->the_post(); ?>
+			<li>do stuff</li>
+		<?php endwhile; ?>
+	</ul>
+<?php endif; wp_reset_query();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gbl_query</tabTrigger>

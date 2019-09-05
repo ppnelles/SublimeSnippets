@@ -7,14 +7,14 @@ Just put everything in C:\Users\your-focking-username\AppData\Roaming\Sublime Te
 
 My Package list
 ---------------
-ACF Snippets
-All Autocomplete
-BracketHighlighter
-CSS Extended Completions
-Emmet
-Emmet Css Snippets
-Flexbox Snippets
-jQuery
-Package Control
-ProjectManager
-Sass
+- ACF Snippets
+- All Autocomplete
+- BracketHighlighter
+- CSS Extended Completions
+- Emmet
+- Emmet Css Snippets
+- Flexbox Snippets
+- jQuery
+- Package Control
+- ProjectManager
+- Sass

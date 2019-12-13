@@ -1,4 +1,5 @@
 ACF Snippnets
+All Autocomplete
 Bracket Highlighter
 CSS Extended completions
 Emmet

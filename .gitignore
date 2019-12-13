@@ -1,0 +1,21 @@
+Package Control.cache/
+oscrypto-ca-bundle.crt
+
+# ignore Sublimet logs
+*-run
+*-ca-bundle
+
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.DS_Store

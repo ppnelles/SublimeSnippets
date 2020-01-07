@@ -1,5 +1,6 @@
 Package Control.cache/
 oscrypto-ca-bundle.crt
+Package Control.sublime-settings
 
 # ignore Sublimet logs
 *-run

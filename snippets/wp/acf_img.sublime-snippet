@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
 //ACF field must be set as ID
-if(get_field('${1:fieldID}')) {
-	echo wp_get_attachment_image(get_field('${1:fieldID}'), '${2:imgSize}');
-}
+if(get_field('${1:fieldID}')) { ?>
+	<figure>
+		<?php echo wp_get_attachment_image(get_field('${1:fieldID}'), '${2:imgSize}'); ?>
+	</figure>
+<?php }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>acfimg</tabTrigger>
